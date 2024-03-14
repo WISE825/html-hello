@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script";
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.Header {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Feed {
+    background-color: rgb(238, 238, 238);
+}
+
+.Post {
+    background-color: white;
+    width: 500px;
+    height: auto;  
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.Top {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.Top h2 {
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.Top h3 {
+    font-size: small;
+    color: rgb(238, 238, 238);
+    margin-left: auto;
+}
+
+.Comentarios {
+    max-height: 80px;
+    min-height: 50px;
+    width: 500px;
+    padding: 5px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+.Imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.Imagen img {
+    height: auto; 
+    width: 100%;
+    object-fit: cover;
+}
